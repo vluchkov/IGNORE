@@ -1,0 +1,199 @@
+    1  ls
+    2  mkdir test
+    3  cd test/
+    4  reset
+    5  echo "# test" >> README.md
+    6  ls
+    7  git init
+    8  ls -la
+    9  git sttuts
+   10  git status
+   11  git add --all
+   12  git status
+   13  git commit -m "first commit"
+   14  git config --global user.email "luchkovskaya.vika@gmail.com"
+   15  git config --global user.name "Viktoriia"
+   16  git commit -m "first commit"
+   17  git status
+   18  git branch -M main
+   19  git status
+   20  git remote -v
+   21  git remote add origin git@github.com:vluchkov/test.git
+   22  git remote -v
+   23  git push -u origin  main
+   24  cd ../
+   25  ls
+   26  ssh-keygen -t ed25519 -C "luchkovskaya.vika@gmail.com"
+   27  cat .ssh/id_ed25519.pub 
+   28  ssh  ec2-user@linux.itcareerhub.de
+   29  git push -u origin  main
+   30  cd test/
+   31  git push -u origin  main
+   32  git push --f
+   33  git push -u origin  main -f
+   34  git pull
+   35  git log
+   36  history 
+   37  exit
+   38  ssh username@linux.itcareerhub.de
+   39  ssh username@linux.itcarrerhub.de
+   40  ssh username@linux.itcareerhub.de
+   41  ssh  ec2-user@linux.itcareerhub.de
+   42  git branch
+   43  ssh  ec2-user@linux.itcareerhub.de
+   44  cp /home/your_username/filename.txt /mnt/c/Users/your_windows_username/Downloads/
+   45  cp /home/viktoriia/filen.txt /mnt/c/Users/Downloads/
+   46  cp /home/viktoriia/file.txt /mnt/c/Users/Downloads/
+   47  ls
+   48  ssh  ec2-user@linux.itcareerhub.de
+   49  nano /tmp/file.txt
+   50  chmod g+wx /tmp/file.txt
+   51  chmod o-rwx /tmp/file.txt
+   52  nano ~/myfirstbashscript.sh
+   53  chmod +x ~/myfirstbashscript.sh
+   54  cat ~/myfirstbashscript.sh >> /tmp/file.txt
+   55  history >> /tmp/file.txt
+   56  export_file /tmp/file.txt
+   57  cp /path/to/wsl/file /mnt/c/Users/YourUsername/Downloads/
+   58  cp /path/to/wsl/file /mnt/c/Users.Downloads/
+   59  ды
+   60  ls
+   61  cp /path/to/wsl/file /mnt/c/Users.Downloads/
+   62  cp /path/to/wsl/file.txt /mnt/c/Users.Downloads/
+   63  cp /path/to/wsl/file /mnt/c/Users/Виктория/Downloads/
+   64  cp /path/to/wsl/file /mnt/c/Users/Viktoriia/Downloads/
+   65  cp /path/to/wsl/file /mnt/c/Users/viktoriia/Downloads/
+   66  mkdir git_intro
+   67  cd git_intro
+   68  git init
+   69  git add Photo_Cat.jpg
+   70  git add qwertyuiop.jpg
+   71  git init
+   72  git add qwertyuiop.jpg
+   73  nano ~/myfirstbashscript.sh
+   74  chmod +x ~/myfirstbashscript.sh
+   75  cp ~/myfirstbashscript.sh /tmp/myfirstbashscript.txt
+   76  export_file /tmp/myfirstbashscript.txt
+   77  ranger
+   78  /mnt
+   79  cd /mnt
+   80  ls
+   81  cd c
+   82  ls
+   83  cd Виктория
+   84  ls
+   85  cd Мой проект
+   86  cd 'Мой проект'
+   87  ls
+   88  ..cd
+   89  cd..
+   90  .
+   91  ..cd
+   92  cd Виктория
+   93  cd..
+   94  ssh  ec2-user@linux.itcareerhub.de
+   95  cd /mnt
+   96  ls
+   97  cd c
+   98  ls
+   99  cd Виктория
+  100  ды
+  101  ls
+  102  git add --all
+  103  git add Виктория
+  104  git add Виктория/
+  105  git init
+  106  git add Виктория/
+  107  ls
+  108  git remote add origin git@github.com:vluchkov/MyWork.git
+  109  git branch -M main
+  110  git push -u origin main
+  111  git init
+  112  cp Виктория /MyWork.git
+  113  cp /mnt/c/Виктория /MyWork.git
+  114  git add Виктория/
+  115  git push origin main
+  116  git add --all
+  117  ls
+  118  git init
+  119  cd /mnt
+  120  cd Виктория/
+  121  cd Виктория
+  122  cd c
+  123  cd Виктория
+  124  git add --all
+  125  git push origin main
+  126  git remote add origin git@github.com:vluchkov/MyWork.git
+  127  git push -u origin main
+  128  cd /path/to/your/repository
+  129  git add Виктория/
+  130  cd /path/to/your/repository
+  131  git add --all
+  132  git commit -m
+  133  git commit -m "Добавила папку Виктория"
+  134  git push origin main
+  135  git remote add origin git@github.com:vluchkov/MyWork.git
+  136  git branch -M main
+  137  git push origin main
+  138  cd mnt
+  139  cd /mnt
+  140  ls
+  141  cd c
+  142  ls
+  143  cd Виктория
+  144  ls
+  145  cd ICH
+  146  ls
+  147  cd Linux
+  148  ls
+  149  cd git_intro
+  150  ls
+  151  git init
+  152  git add cat
+  153  git add cat.png
+  154  git add --all
+  155  git commit -m "Added photo cat"
+  156  git branch -M main
+  157  git remote add origin git@github.com:vluchkov/git_intro.git
+  158  git push -u origin main
+  159  cd ..
+  160  cd ICH
+  161  cd Linux
+  162  ls
+  163  cd git-branch
+  164  git init
+  165  git checkout -b gitignore
+  166  touch .gitignore
+  167  nano .gitignore
+  168  git add --all
+  169  git commit -m "added hw 10"
+  170  git remote add origin git@github.com:vluchkov/git-branch.git
+  171  git push -u origin gitignore
+  172  cd ..
+  173  git clone https://github.com/vluchkov/IGNORE.git
+  174  cd IGNORE
+  175  git checkout -b feature
+  176  touch REAME.md
+  177  echo "# My Project" > README.md
+  178  echo "# Ignoring logs" >> .gitignore
+  179  echo "*.log" >> .gitignore
+  180  git add README.md .gitignore
+  181  git commit -m "added file README and .gitignore"
+  182  git push -u origin feature
+  183  git push - u origin feature
+  184  git clone git@github.com:vluchkov/IGNORE.git
+  185  cd IGNORE
+  186  git checkout -b feature
+  187  touch REAME.md
+  188  echo "# My Project" > README.md
+  189  echo "# Ignoring logs" >> .gitignore
+  190  echo "*.log" >> .gitignore
+  191  git add README.md .gitignore
+  192  git commit -m "added file README and .gitignore"
+  193  git push -u origin feature
+  194  git commit --amend -m "added file README and .gitignore - amend"
+  195  git push -f
+  196  git checkout main
+  197  git merge feature
+  198  git push origin main
+  199  history > history.txt
